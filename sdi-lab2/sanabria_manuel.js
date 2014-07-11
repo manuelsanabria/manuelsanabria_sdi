@@ -9,7 +9,7 @@
 var myNameIs = "Manuel Sanabria";
 var myStreetAddress = "12433 Blacksmith Drive";
 var myFriendsNameIs = "Grace Zotting";
-var myFriendLives = "Winter Park Villas";
+var myFriendLives = "\"Winter Park Villas\"";
 var myFavoriteSport = "Lacrosse";
 var myTimeToGetHere =  3;
 var myFriendsNameIsGrace = true;
