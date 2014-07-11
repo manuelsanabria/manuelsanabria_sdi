@@ -23,6 +23,7 @@ console.log("We talked about sports like "+ myFavoriteSport + ".");
 console.log("It's hard to visit my friend because i live " + myTimeToGetHere + " hours from here by bus.");
 
 // confirm
+myTimeToGetHere = prompt("How long does i take me to get to my friends house?", "3");
 myFriendsNameIs = confirm("Is my friends name Grace?");
-myFavoriteSport = prompt("What is your favorite sport?", "Lacrosse");
+
 myTimeToGetHere = parseFloat(myTimeToGetHere);
