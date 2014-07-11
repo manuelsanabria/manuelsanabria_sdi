@@ -24,5 +24,5 @@ console.log("It's hard to visit my friend because i live " + myTimeToGetHere + "
 
 // confirm
 myFriendsNameIs = confirm("Is my friends name Grace?");
-myFavoriteSport = prompt("What is your favorite sport?");
+myFavoriteSport = prompt("What is your favorite sport?", "Lacrosse");
 myTimeToGetHere = parseFloat(myTimeToGetHere);
