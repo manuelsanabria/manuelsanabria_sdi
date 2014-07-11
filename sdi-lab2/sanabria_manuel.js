@@ -1,4 +1,4 @@
-alert("JavaScript works!");
+//alert("JavaScript works!");
 
 // Manuel Sanabria
 // SDI 1407
