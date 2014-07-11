@@ -9,7 +9,7 @@
 var myNameIs = "Manuel Sanabria";
 var myStreetAddress = "12433 Blacksmith Drive";
 var myFriendsNameIs = "Grace Zotting";
-var myFriendsLives = "Winter Park Villas";
+var myFriendLives = "Winter Park Villas";
 var myFavoriteSport = "Lacrosse";
 var myTimeToGetHere =  3;
 var myFriendsNameIsGrace = true;
@@ -24,5 +24,5 @@ console.log("It's hard to visit my friend because i live " + myTimeToGetHere + "
 
 // confirm
 myFriendsNameIs = confirm("Is my friends name Grace?");
-myFavoriteSport = Prompt("What is your favorite sport?", "Lacrosse");
+myFavoriteSport = Prompt("What is your favorite sport?");
 myTimeToGetHere = parseFloat(myTimeToGetHere);
