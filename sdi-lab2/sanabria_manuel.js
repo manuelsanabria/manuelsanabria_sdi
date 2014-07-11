@@ -16,3 +16,13 @@ var myFriendsNameIsGrace = true;
 
 // Outputs 
 console.log("My name is " + myNameIs + ".");
+console.log("I live at " + myStreetAddress + ".");
+console.log("My best friend is " + myFriendsNameIs + "." );
+console.log("She lives at " + myFriendLives + ".");
+console.log("We talked about sports like "+ myFavoriteSport + ".");
+console.log("It's hard to visit my friend because i live " + myTimeToGetHere + " hours from here by bus.");
+
+// confirm
+myFriendsNameIs = confirm("Is my friends name Grace?");
+myFavoriteSport = Prompt("What is your favorite sport?", "Lacrosse");
+myTimeToGetHere = parseFloat(myTimeToGetHere);
