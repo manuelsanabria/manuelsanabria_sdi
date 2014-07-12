@@ -12,3 +12,5 @@ if (myNameIs === "Manuel Sanabria") {
 	console.log("Welcome " + myNameIs + ".");
 
 }
+
+console.log("Good job, Manuel!");
