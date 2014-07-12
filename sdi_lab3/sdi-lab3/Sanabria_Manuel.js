@@ -4,21 +4,21 @@
 // SDI 1407
 // Leture 3 
 
-var myNameIs = "Manuel Sanabria";
-var myAge = 19
+// variables
+var myName = "Manuel";
+var myLastName = "Sanabria";
 
-myNameIs = prompt("Enter your name?", "Manuel Sanabria");
+myName = prompt("Enter your name?", "Manuel");
 
-if (myNameIs === "Manuel Sanabria") 
+// conditionals
+if (myName === "Manuel") 
 {
-	console.log("Welcome " + myNameIs + ".");
-    if (myAge > 21) {
-       console.log("In two years you can legally drink!");   
-} else {
-    if (myAge > 19 )
-	   console.log("Don't drink!'");
-	  }
-	console.log("Step away from the computer please!");
+	myLastName = prompt("Enter your last name, " + myName + ":");
+	if (myLastName === "Sanabria") {
+	console.log("Welcome back, " + myName + " " + myLastName + ".");
+} else { 
+	console.log("Step back from the computer please!"); 
+	} 
 }
 
-console.log("Good job, Manuel!");
+console.log("Good job, " + myName + "!");
