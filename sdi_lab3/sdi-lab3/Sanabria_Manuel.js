@@ -9,6 +9,6 @@ var myNameIs = "Manuel Sanabria";
 myNameIs = prompt("Enter your name?", "Manuel Sanabria");
 
 if (myNameIs === "Manuel Sanabria") {
-	console.log("Welcome" + myNameIs + ".");
+	console.log("Welcome " + myNameIs + ".");
 
 }
