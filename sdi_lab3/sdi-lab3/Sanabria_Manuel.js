@@ -12,13 +12,12 @@ myNameIs = prompt("Enter your name?", "Manuel Sanabria");
 if (myNameIs === "Manuel Sanabria") 
 {
 	console.log("Welcome " + myNameIs + ".");
-    if (myAge > 19)
+    if (myAge > 21) {
        console.log("In two years you can legally drink!");   
 } else {
-
+    if (myAge > 19 )
 	   console.log("Don't drink!'");
-	   
-	   
+	  }
 	console.log("Step away from the computer please!");
 }
 
