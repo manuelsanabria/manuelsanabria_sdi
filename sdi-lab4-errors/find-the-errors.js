@@ -18,7 +18,7 @@ console.log("So, let's get to work!");
 
 while (numOfCats > 0) {
     
-    if (employed === true) {
+    if (employed == true) {
         
         console.log("I've wrangled another cat. Only " + numOfCats + " left!"); 
         
@@ -28,9 +28,9 @@ while (numOfCats > 0) {
         
     }
     
-        numOfCats--; {
+        numOfCats--; 
     
-    if (numOfCats === 5)  
+    if (numOfCats === 5) { 
         
         employed = false;
         
