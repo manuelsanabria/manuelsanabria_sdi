@@ -26,7 +26,7 @@ while (numOfCats > 0) {
         
         console.log("I've been fired! Someone else will have to wrangle the rest!");
         
-    };
+    }
     
     numOfCats--;
     
@@ -34,7 +34,7 @@ while (numOfCats > 0) {
         
         employed = false;
         
-    };
+    }
     
-};
+}
 
