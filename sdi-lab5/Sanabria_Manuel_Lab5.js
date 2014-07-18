@@ -30,6 +30,14 @@ var multiply = function(number1, number2) {
 	
 };
 
+ var divide = function(number1, number2) {
+	
+	var dividingResult;
+	dividingResult = (number1 / number2);
+	return dividingResult;
+	
+};
+
 var a = parseFloat(prompt("Enter your first number, please."));
 var b = parseFloat(prompt("Enter your second number, please."));
 var d = prompt("Enter your operation.");
@@ -51,7 +59,9 @@ if (d === "+") {
 	
 } else if (d === "/") {
 
-	
+   var myDivide = divide(a, b);
+   console.log(myDivide);
+
 }
 
 
