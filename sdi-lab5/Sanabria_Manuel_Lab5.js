@@ -57,11 +57,17 @@ if (d === "+") {
 	var myMultiply = multiply(a, b);
 	console.log(myMultiply);
 	
-} else if (d === "/") {
-
-   var myDivide = divide(a, b);
-   console.log(myDivide);
-
+} else if (d === "/") { 
+	
+   if (b === 0) {
+   	
+   	console.log("Cannot divide");
+   	
+   } else {
+   	
+   	var myDivide = divide(a, b);
+   	console.log(myDivide);
+   	
+   }
 }
-
 
