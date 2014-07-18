@@ -4,6 +4,9 @@
 // SDI 1407
 // Lab 5
 
+
+// Note I had help from Angelo
+
 var addition = function(number1, number2) {
 	
 	var addingResult;
@@ -19,9 +22,18 @@ var subtract = function(number1, number2) {
 	return subtractingResult;
 };	
 
+var multiply = function(number1, number2) {
+	
+	var multiplyingResult;
+	multiplyingResult = (number1 * number2);
+	return multiplyingResult;
+	
+};
+
 var a = parseFloat(prompt("Enter your first number, please."));
 var b = parseFloat(prompt("Enter your second number, please."));
 var d = prompt("Enter your operation.");
+
 if (d === "+") {
 	
 	var myAdd = addition(a, b);
@@ -32,7 +44,14 @@ if (d === "+") {
     var mySubtract = subtract(a, b);
     console.log(mySubtract);	
 	
-};
+} else if (d === "*") {
+	
+	var myMultiply = multiply(a, b);
+	console.log(myMultiply);
+	
+} else if (d === "/") {
 
+	
+}
 
 
