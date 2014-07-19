@@ -26,7 +26,7 @@ var multiply = function(number1, number2) {
 	
 	var multiplyingResult;
 	multiplyingResult = (number1 * number2);
-	return multiplyingResult;
+    return multiplyingResult;
 	
 };
 
