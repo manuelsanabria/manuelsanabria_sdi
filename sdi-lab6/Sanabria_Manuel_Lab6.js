@@ -4,21 +4,24 @@
 // SDI 1407
 // Lab 6 Part 1
 
-var myList = function() {
+var mySoccerList = function() {
 	
-	var list = ["Manchester City", "Manchester United", "Everton", "Chelsea"];
-	var list2 = ["Yaya", "De Gea", "Lukaku", "Mata"];
+	var listClubs = ["Manchester City", "Manchester United", "Everton", "Chelsea"];
+	var listPlayers = ["Yaya", "De Gea", "Lukaku", "Mata"];
 	
-	for (var i = 0; i < list.length; i++) {
+	for (var i = 0; i < listClubs.length; i++) {
 		
-		console.log("I would like to see my favorite club " + list[i] + " " + list2[i] + '.');
+		console.log("I would like to see my favorite club " + listClubs[i] + " " + listPlayers[i] + '.');
+		
 	}
 	
-	list.push("Barcelona");
-	list2.push("Dani Alves"); 
+	console.log(listClubs, listPlayers);
+	    
+	listClubs.push("Barcelona");
+	listPlayers.push("Dani Alves"); 
 	
-	console.log("I would like to see my favorite club " + list[4] + " there star player is " + list2[4] + '.');
-
+	console.log("I would like to see my favorite club " + listClubs[4] + " there star player is " + listPlayers[4] + '.');
+    console.log(listClubs, listPlayers);
 };
 
-myList();
+mySoccerList();
