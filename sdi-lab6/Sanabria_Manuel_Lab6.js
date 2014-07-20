@@ -15,9 +15,11 @@ var myList = function() {
 	}
 	 
 	
+	list.push("Barcelona");
+	list2.push("Dani Alves"); 
 	
-	
-	
+	console.log("I would like to see my favorite club " + list[4] + " but my favorite player is " + list2[4] + '.');
+
 	
 };
 
