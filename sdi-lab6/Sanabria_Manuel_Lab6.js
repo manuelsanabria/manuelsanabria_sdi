@@ -11,7 +11,7 @@ var mySoccerList = function() {
 	
 	for (var i = 0; i < listClubs.length; i++) {
 		
-		console.log("I would like to see my favorite club " + listClubs[i] + " " + listPlayers[i] + '.');
+		console.log("I would like to see my favorite club " + listClubs[i] + " there star player is " + listPlayers[i] + '.');
 		
 	}
 	
