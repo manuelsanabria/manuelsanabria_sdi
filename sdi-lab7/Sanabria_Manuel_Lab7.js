@@ -22,18 +22,26 @@ var playerGenerator = function() {
 	for (var index in jsonData.manchesterUnited) {
 		if (index == 0) {
 			
-			firstPlay = new objPerson(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
+			firstPlay = new objPlayers(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
 			
 		} else if (index == 1) {
 			
 			
-			secondPlay = new objPerson(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
+			secondPlay = new objPlayers(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
 			
 		} else {
 			
-			thirdPlay = new objPerson(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
+			thirdPlay = new objPlayers(jsonData.manchesterUnited[index].player, jsonData.manchesterUnited[index].position, jsonData.manchesterUnited[index].nationality, jsonData.manchesterUnited[index].age);
 			
 		}
 	};
 
 };
+
+playerGenerator();
+console.log(firstPlay.player + " is a " + firstPlay.nationality + ".");
+console.log(firstPlay);
+console.log(secondPlay.player + " plays as a " + secondPlay.position + ".");
+console.log(secondPlay);
+console.log(thirdPlay.player + " age is " + thirdPlay.age + ".");
+console.log(thirdPlay);

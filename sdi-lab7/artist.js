@@ -10,7 +10,7 @@ var jsonData = {
 	[
        {
        	"player": "Juan Mata",
-       	"positon": "Winger",
+       	"position": "Left Midfielder",
        	"nationality": "Spaniard",
        	"age": 26
        	
