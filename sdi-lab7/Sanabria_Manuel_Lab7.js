@@ -8,12 +8,20 @@ var firstPlay,
     secondPlay,
     thirdPlay;
     
-var objPlayers = function() {
+var objPlayers = function(playName, playPos, playNat, playAge) {
 	
 	this.player = playName,
 	this.position = playPos,
 	this.nationality = playNat,
 	this.age = playAge;
+	
+};
+
+var playerGenerator = function() {
+	
+	
+	
+	
 	
 	
 };
