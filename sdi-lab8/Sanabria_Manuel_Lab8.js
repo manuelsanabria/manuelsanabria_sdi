@@ -32,15 +32,14 @@ var myChar = function(email) {
 	} else {
 		isThereNoSpace = false;
 	}
-	
-	if (isThereOneAt ==  true && isThereOnePeriod == true && isThereNoSpace == true) {
-		console.log("You have a valid address!");
-		return true;	
+
+	if (isThereOneAt == true && isThereOnePeriod == true && isThereNoSpace == true) {
+		console.log("You have a valid email address!");
+		return true;
 	} else {
 		console.log("You have an incorrect address");
 		return false;
 	}
-	
 
 };
 myChar(myEmail);
