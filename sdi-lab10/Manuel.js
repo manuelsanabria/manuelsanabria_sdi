@@ -27,16 +27,19 @@ var multiples = function() {
 
 };
 var genPowerball = function() {
-	
-	var num = Math.random();
-	num = num * 59;
-	num = parseInt(num);
-	num = num + 1;
-		console.log(num);
+
+	while (array.length < 5) {
+
+		var num = Math.random();
+		num = num * 58;
+		num = num + 1;
+		num = Math.round(num);
+		array.push(num);
+
+	}
 
 };
 result = multiples();
 console.log("The result is " + result + ".");
 genPowerball();
-	
-
+console.log(array);
