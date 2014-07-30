@@ -3,7 +3,9 @@
 // Manuel Sanabria
 // SDI 1407
 // Lab 9
-
+var theString = "88";
+var theDate = new Date("1/1/2014");
+var theDate2 = new Date("1/2/2015");
 // problem 1
 var myNum = function(numForm, numDec) {
 
@@ -11,14 +13,6 @@ var myNum = function(numForm, numDec) {
 	return newNum;
 
 };
-var myResult = myNum(4.1364, 7);
-console.log("My new result is " + myResult + ".");
-
-
-
-// problem 2
-var theString = "88";
-
 var theNum = function(theString) {
 
 	if (isNaN(theString)) {
@@ -31,14 +25,6 @@ var theNum = function(theString) {
 	}
 
 };
-theNum(theString);
-
-
-
-// problem 3
-var theDate = new Date("1/1/2014");
-var theDate2 = new Date("1/2/2015");
-
 var myDates = function(firstDat, secondDat, thirdHours) {
 	
 	var difference = firstDat - secondDat;
@@ -53,7 +39,22 @@ var myDates = function(firstDat, secondDat, thirdHours) {
 		return difference / 24;
 	}
 };
+var myResult = myNum(4.1364, 7);
+console.log("My new result is " + myResult + ".");
+theNum(theString);
 console.log("This is my new data as days " +  myDates(theDate,theDate2, "days") + ".");
+
+
+
+
+
+
+
+
+// problem 3
+
+
+
 
 
 

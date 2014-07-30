@@ -12,12 +12,12 @@ var result = 0;
 var multiples = function() {
 	
 	var sum = 0;
-	for (var i = 3; i < 1000; i+=3); {
+	for (var i = 3; i < 1000; i+=3) {
 		
 		sum += i;
 		
 	}
-	for (var i = 5; i < 1000; i+=5); {
+	for (var i = 5; i < 1000; i+=5) {
 		
 		sum += i;
 		
