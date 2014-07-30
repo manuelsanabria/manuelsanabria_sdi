@@ -7,7 +7,6 @@
 // global variables
 var result = 0;
 var array = [];
-var array2 = [];
 
 // functions
 var multiples = function() {
@@ -34,12 +33,21 @@ var genPowerball = function() {
 		num = num * 58;
 		num = num + 1;
 		num = Math.round(num);
-		array.push(num);
+		if (array.indexOf(num) < 0) {
+		array.push(num);	
+		}
+		
 
 	}
+	var num2 = Math.random();
+	num2 = num * 34;
+	num = num + 1;
+	num = Math.round(num);
+	array.push(num);
 
 };
 result = multiples();
 console.log("The result is " + result + ".");
 genPowerball();
-console.log(array);
+console.log("The numbers are: " + array + ".");
+console.log("The powerball number is " + array[5]);
